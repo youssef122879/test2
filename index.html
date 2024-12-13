@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> my brand</title>
+    <link rel="stylesheet"  href="style.css"/>
+</head>
+<body>
+    <section class="main-section">
+        <img src="./images/sports-images-for-desktop-background-wallpaper-preview.jpg"/>
+        <h1>My Brand</h1>
+        <button id="btn">Learn More</button>
+        <p id="description">Apparel: Clothing such as shirts, shorts, pants, jackets, shoes, socks, and sportswear designed for specific sports or activities (e.g., running shoes, basketball jerseys, swimwear). This often includes technical fabrics focused on performance and comfort.
+            Equipment: Items necessary for playing specific sports, such as balls, bats, rackets, gloves, helmets, and specialized training equipment. This often incorporates advanced technology and materials for optimal performance.
+            Accessories: Items that complement sports apparel and equipment, like bags, water bottles, hats, and eyewear.
+            Footwear: Athletic shoes designed for different sports and activities, emphasizing features like cushioning, support, and traction.
+            These brands often build their image around</p>
+    </section>
+
+    <script>
+        const btn = document.querySelector('#btn')
+        btn.addEventListener('click' , ()=>{
+           document.querySelector('#description').scrollIntoView({
+            behavior:'smooth'
+           })
+        })
+    </script>
+</body>
+</html>
